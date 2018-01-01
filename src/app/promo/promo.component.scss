@@ -171,7 +171,16 @@
                     background-color: rgb(12, 11, 11);
                     padding: 1em;
                     display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    float: left;
                     color: white;
+                }
+                
+                .foot {
+                    display: flex;
+                    flex-direction: row;
+                    // justify-content: center;
                 }
                 
                 .ani {
@@ -198,17 +207,10 @@
                     }
                 }
                 
-                .feature {
-                    margin: auto;
-                    height: auto;
-                    font-family: 'Merriweather', serif;
-                    display: flex;
-                    flex-direction: row;
+                .responsive-img {
                     justify-content: center;
-                    align-items: center;
-                    width: 100%;
-                    color: rgb(8, 8, 8);
-                    background-image: url("../../assets/pexels-photo-355423 (1).jpg");
-                    opacity: .8;
-                    // padding: 5px;
+                }
+                
+                .responsive-img:hover {
+                    background: rgb(139, 127, 207);
                 }
